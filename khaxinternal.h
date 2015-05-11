@@ -1,6 +1,8 @@
 #pragma once
 
-#define KHAX_DEBUG
+#ifndef LIBKHAX_AS_LIB
+	#define KHAX_DEBUG
+#endif
 //#define KHAX_DEBUG_DUMP_DATA
 
 #ifdef KHAX_DEBUG
